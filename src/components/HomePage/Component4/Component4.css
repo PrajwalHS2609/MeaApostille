@@ -1,0 +1,91 @@
+.component4-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.component4-content {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.component4-content > h2 {
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+.component4-card {
+  width: 550px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  box-shadow: 0 0 10px black;
+}
+.component4-cardContent > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 300ms ease;
+}
+.component4-card:hover img {
+  transform: scale(1.1);
+}
+.component4-cardContent {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.component4-cardContent:nth-child(2) {
+  background-color: #1e0013;
+  padding: 30px;
+  color: white;
+}
+.component4-cardContent > h6 {
+  padding: 5px;
+}
+.component4-cardContent > h3 {
+  padding: 5px;
+}
+.component4-cardContent > p {
+  border-bottom: solid 2px white;
+  padding: 20px 5px;
+}
+.component4-cardContent > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.component4-cardIco {
+  font-size: 25px;
+}
+@media screen and (max-width: 768px) {
+  .component4-content {
+    /* border: solid blue; */
+    padding: 10px;
+    flex-direction: column;
+  }
+  .component4-content > h2 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .component4-card {
+  width: 350px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  box-shadow: 0 0 10px black;
+}
+}

@@ -1,0 +1,72 @@
+.component3-container {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+  background-color: #4d144a;
+}
+.component3-content1 {
+  width: 45%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.component3-content1 > img {
+  width: 600px;
+}
+.component3-content1 > h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: start;
+  color: white;
+}
+.component3-content1 > p {
+  font-size: 16px;
+  color: white;
+}
+.component3-content1 > a {
+  padding: 10px;
+  background-color: #4d144a;
+  color: white;
+  font-weight: bold;
+  border: solid 2px transparent;
+  text-decoration: none;
+  transition: 300ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border: solid 2px white;
+  &:hover {
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+  }
+}
+.component3-content1Icon {
+  font-size: 25px;
+}
+@media screen and (max-width: 768px) {
+  .component3-container {
+    /* border: solid red; */
+    flex-direction: column;
+    padding: 1rem 1rem;
+  }
+  .component3-content1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .component3-content1 > h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: start;
+}
+  .component3-content1 > img {
+    width: 300px;
+  }
+}

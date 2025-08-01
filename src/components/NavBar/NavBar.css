@@ -1,0 +1,261 @@
+/* ------------ DESKTOP NAVBAR ------------ */
+
+.navContainer {
+  /* border: solid red; */
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.logo-container {
+  /* border: solid; */
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  /* background-color: var(--customColor1); */
+}
+
+.logo-container > a {
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+}
+
+.logo-container > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.menuContainer {
+  /* border: solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.menuContent {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.menuContent > li {
+  /* border: solid; */
+  list-style: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  /* border: solid red; */
+  position: relative;
+  height: 100%;
+}
+.menuContent > li::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  height: 3px;
+  background-color: var(--customColor1);
+  opacity: 0;
+  transition: 1s ease;
+}
+.menuContent > li:hover::after {
+  opacity: 1;
+}
+.menuContent > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.menuIcon {
+  margin-left: 5px;
+  font-size: 18px;
+  color: var(--customColor1);
+}
+
+.menuDrop {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  /* background-color: white; */
+  z-index: 1000;
+  min-width: 200px;
+  padding: 10px 0;
+}
+
+.menuContent > li:hover .menuDrop {
+  display: flex;
+}
+
+.menuDrop > a {
+  text-decoration: none;
+}
+
+.dropItems {
+  padding: 10px 20px;
+  color: black;
+  font-size: 14px;
+  transition: background 0.3s, color 0.3s;
+  background-color: white;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.dropItems:hover {
+  background-color: var(--customColor1);
+  color: white;
+}
+
+.dropItems:hover p {
+  color: white;
+}
+
+.dropItems > p {
+  margin: 0;
+}
+
+/* ------------ HAMBURGER + RESPONSIVE SIDEMENU ------------ */
+
+.mainMenu {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hamIcon {
+  font-size: 28px;
+  color: black;
+}
+
+.respMenu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  background-color: #1d1d20;
+  z-index: 9999;
+  overflow-y: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.respMenuScroll {
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.respMenuScroll > ul {
+  border-top: 1px solid #333;
+  padding: 10px 0;
+  /* border: solid blue; */
+  width: 100%;
+}
+
+.respMenuScroll > ul > h2 {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#respMenuScrollUl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.respMenuScroll h4 > a,
+.respMenuScroll h2 > a {
+  color: white;
+  text-decoration: none;
+}
+
+.respMenuSpan {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
+.respMenuSpan > li {
+  list-style: none;
+  background-color: #25252a;
+  padding: 15px;
+}
+
+.respMenuSpan > li > h4 > a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.cross {
+  position: static;
+  right: 0px;
+  top: 0px;
+  font-size: 30px;
+  color: white;
+}
+
+/* ------------ SCROLLBAR STYLING ------------ */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2d2d2d;
+}
+
+/* ------------ RESPONSIVE STYLING ------------ */
+
+@media only screen and (max-width: 768px) {
+  .navContainer {
+    height: 80px;
+  }
+
+  .menuContent {
+    display: none;
+  }
+
+  .mainMenu {
+    display: flex;
+  }
+
+  .menuContainer {
+    justify-content: flex-end;
+    padding: 0 20px;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+}

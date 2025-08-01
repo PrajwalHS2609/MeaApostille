@@ -1,0 +1,134 @@
+.footer-container {
+  /* border: solid; */
+  width: 100%;
+  padding: 40px 30px;
+  background-color: #f8f8f8; /* light background */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Top section with links + address */
+.footerTop-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* allow responsive stacking */
+  gap: 20px;
+}
+
+/* Links Section */
+.footerLink-container {
+  width: 320px;
+}
+
+.footerLink-container h5 {
+  color: var(--customColor1);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footerLink-container ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footerLink-container li {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.footerLink-container a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  border-left: 3px solid transparent;
+  padding-left: 5px;
+  transition: all 0.3s ease;
+}
+
+.footerLink-container a:hover {
+  color: var(--customColor1);
+  border-left-color: var(--customColor1);
+  padding-left: 10px;
+}
+
+/* Address Section */
+.footerAddress-container {
+  width: 400px;
+}
+
+.footerAddress-container h5 {
+  color: var(--customColor1);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footerAddress-container ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footerAddress-container li {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.footerAddress-container a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footerAddress-container a:hover {
+  color: var(--customColor1);
+  text-decoration: underline;
+}
+
+.footerAddress-icon {
+  font-size: 18px;
+  color: var(--customColor1);
+  min-width: 20px;
+}
+
+/* Social Icons */
+.footerAddress-social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 20px;
+}
+
+.footerAddress-social li {
+  list-style: none;
+}
+
+.footerAddress-socialIco {
+  font-size: 22px;
+  color: var(--customColor1);
+  transition: 0.3s ease;
+}
+
+.footerAddress-socialIco:hover {
+  color: black;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footerTop-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footerLink-container,
+  .footerAddress-container {
+    width: 100%;
+  }
+}
