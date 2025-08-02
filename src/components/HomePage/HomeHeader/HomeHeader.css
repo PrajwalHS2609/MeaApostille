@@ -76,7 +76,7 @@
 }
 @media screen and (max-width: 768px) {
   .homeHeader-cover {
-    border: solid blue;
+    /* border: solid blue; */
     width: 100%;
     height: fit-content;
     padding: 10px;
@@ -91,7 +91,7 @@
     flex-direction: column;
     gap: 10px;
   }
-  .homeHeader-coverContent > h2 {
+  .homeHeader-coverCont                                      ent > h2 {
     font-size: 30px;
     color: white;
     font-weight: bold;

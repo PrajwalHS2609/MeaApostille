@@ -1,7 +1,5 @@
 import React from "react";
 import "./NavBar.css";
-import Image from "next/image";
-import logo from "@/Images/logo.png";
 import Link from "next/link";
 const Logo = () => {
   return (
