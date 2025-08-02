@@ -2,21 +2,35 @@ import Link from "next/link";
 import React from "react";
 import "./Component4.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import service1 from "../../../Images/Services/Education Certificate Apostille.png";
+import service2 from "../../../Images/Services/Personal Certificate Apostille.png";
+import service3 from "../../../Images/Services/Commercial Document Apostille.png";
+import Image from "next/image";
 
 const Component4 = () => {
   const card = [
     {
       id: 1,
-      img: "https://techtoday.lenovo.com/sites/default/files/styles/block_content_card/public/2024-12/img-x-9-enterprise%402x_1.jpg.webp?itok=0E2x-xsg",
-      title: "How the enterprise thrives with X9",
-      para: "See how enterprises are using the Lenovo ThinkPad  X9 Aura Edition Series, imagined with Intel, to provide the highest levels of AI performance, personalized experiences, military-grade durability, and executive-level support.",
+      sup: "Education",
+      img: service1,
+      title: "Educational Certificate Apostille",
+      para: "Authenticate your academic documents like degrees, diplomas, and transcripts—for global recognition in Hague Convention countries through a trusted and hassle-free apostille process. Open doors to study or work abroad!",
       link: "/",
     },
-        {
+    {
       id: 2,
-      img: "https://techtoday.lenovo.com/sites/default/files/styles/block_content_card/public/2024-12/img-smb-x-9%402x.jpg.webp?itok=EXC2MeSI",
-      title: "How the enterprise thrives with X9",
-      para: "See how enterprises are using the Lenovo ThinkPad  X9 Aura Edition Series, imagined with Intel, to provide the highest levels of AI performance, personalized experiences, military-grade durability, and executive-level support.",
+      sup: "Personal",
+      img: service2,
+      title: "Personal Certificate Apostille",
+      para: "Easily legalize your personal documents like birth, marriage, or death certificates—for hassle-free acceptance in Hague Convention countries. A quick, official way to make your documents globally valid.",
+      link: "/",
+    },
+    {
+      id: 3,
+      sup: "Commercial",
+      img: service3,
+      title: "Commercial Documents Apostille",
+      para: "Easily legalize your business documents like invoices, power of attorney, and incorporation certificates—for smooth and official use in any Hague Convention country. Fast, reliable, and globally accepted.",
       link: "/",
     },
   ];
@@ -31,14 +45,15 @@ const Component4 = () => {
         {card.map((x) => (
           <div className="component4-card" key={x.id}>
             <div className="component4-cardContent">
-              <img src={x.img} alt={x.title} />
+              <Image src={x.img} alt={x.title} />
             </div>
             <div className="component4-cardContent">
-              <h6>INFOGRAPHIC</h6>
+              {/* <h6>{x.sup}</h6> */}
               <h3>{x.title}</h3>
               <p>{x.para}</p>
               <Link href={x.link}>
-                Learn more <MdOutlineKeyboardArrowRight className="component4-cardIco"/>
+                Learn more{" "}
+                <MdOutlineKeyboardArrowRight className="component4-cardIco" />
               </Link>
             </div>
           </div>

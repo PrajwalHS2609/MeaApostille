@@ -26,11 +26,8 @@ const AboutUs = () => {
   return (
     <div className="aboutUs-container">
       <div className="aboutUs-content">
-        <h2>A reimagined ThinkPad® experience</h2>
-        <p>
-          While 91% of employees use GenAI at work, only 13% report that their
-          companies have fully implemented AI.
-        </p>
+        <h2>Govt-Approved Apostille Service</h2>
+        <p>MEA-authorized services for personal & educational documents.</p>
         <br />
         <img
           src="https://techtoday.lenovo.com/sites/default/files/styles/original/public/2024-12/img-thinkpad-copilot%402x.png.webp?itok=XT55NUNf"
@@ -39,15 +36,12 @@ const AboutUs = () => {
       </div>
       <div className="aboutUs-content">
         <p>
-          {" "}
-          The Lenovo ThinkPad® X9 Aura Edition Series, imagined with Intel,
-          redefines productivity with next-gen AI, best-in-class battery life,
-          and innovations from Lenovo AI Now and Copilot+, exclusively on
-          Windows 11. The best part? It's all wrapped in a sleek, quiet, and
-          cool design. Ready to elevate your workforce's productivity?{" "}
-          <strong>
-            Download our solution guide now to see the X9 performance boost.
-          </strong>
+          Goodway Apostille Services in Bangalore will verify, validate and
+          legalize the Karnataka State Government issued documents as well as
+          other state issued documents. If your documents are of different state
+          but you live in Karnataka you can submit the documents for apostille
+          in Bangalore, But the documents will be verified from the state branch
+          where the documents are issued.
         </p>
         <br />
         <form onSubmit={handleSubmit} className="contact-form">

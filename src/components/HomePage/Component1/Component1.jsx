@@ -7,13 +7,25 @@ const Component1 = () => {
   return (
     <div className="component1-container">
       <div className="component1-content1">
-        <h2>Unleash the potential of every user</h2>
+        <h2>Certified MEA Apostille Agency in Bangalore</h2>
         <p>
-          The new Lenovo ThinkPad® X1 Carbon Gen 13 Aura Edition, imagined with
-          Intel, is the lightest, thinnest, and most powerful ThinkPad® X1
-          Carbon yet—now optimized for peak performance with Windows 11.
-          Discover how it can revolutionize your workflow with AI-driven
-          features and enterprise-ready security.​
+          Since 2005, India has been a member of the Hague Convention of October
+          5, 1961, which abolished the need for legalization of foreign public
+          documents among member countries. Under this convention, Apostille is
+          recognized and accepted by all member nations, including India.
+        </p>
+        <p>
+          Apostille is typically done for personal documents such as birth,
+          death, and marriage certificates, affidavits, and power of attorney,
+          as well as for educational documents like degree, diploma,
+          matriculation, and secondary-level certificates.
+        </p>
+        <p>
+          As a signatory to the Hague Apostille Convention, India accepts
+          apostilled documents issued by other member countries without
+          requiring further attestation or legalization. In compliance with
+          international obligations, an apostilled document is considered fully
+          legalized and valid for use in India by all authorities.
         </p>
         <Link href={"/"}>
           See The Advantage{" "}

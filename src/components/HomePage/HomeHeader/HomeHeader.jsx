@@ -7,6 +7,7 @@ import iso from "../../../Images/ISO.png";
 import govtApp from "../../../Images/govtApp.png";
 import support from "../../../Images/24X7.png";
 import expertise from "../../../Images/expertise.png";
+import HeaderImg from "../../../Images/headerImg.png";
 
 import Image from "next/image";
 const HomeHeader = () => {
@@ -33,10 +34,7 @@ const HomeHeader = () => {
         <Image src={support} alt="iso" />
         <Image src={expertise} alt="iso" />
       </div>
-      {/* <img
-        src="https://img.freepik.com/free-vector/abstract-blank-gradient-blurry-banner-your-website-app_1017-43270.jpg?t=st=1753954571~exp=1753958171~hmac=14d918edf8e4c25a127f20a2b3a27d1754c56073c4817c00cad84a56dbbac532&w=1800"
-        alt=""
-      /> */}
+      <Image src={HeaderImg} alt="" />
     </div>
   );
 };
