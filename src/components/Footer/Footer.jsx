@@ -109,7 +109,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2025 GoodwayApostille. All rights reserved.</p>
+        <p>© 2025 GoodwayAttestation. All rights reserved.</p>
         <ul>
           <li>Privacy</li>
           <li>Terms of Use</li>

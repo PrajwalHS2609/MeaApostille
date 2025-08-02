@@ -10,10 +10,10 @@ export default function HomePage() {
   return (
     <div>
       <HomeHeader />
-      <AboutUs />
+      <Component4 />
       <Component1 />
       <Component2 />
-      <Component4/>
+      <AboutUs />
       <Component3 />
       <HomeService />
     </div>

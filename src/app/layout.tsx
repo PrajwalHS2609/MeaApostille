@@ -1,8 +1,7 @@
 import "./globals.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './../components/NavBar/NavBar';
-import Footer from './../components/Footer/Footer';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./../components/NavBar/NavBar";
+import Footer from "./../components/Footer/Footer";
 
 export default function RootLayout({
   children,
@@ -11,10 +10,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body >
-        <NavBar/>
+      <head>
+        <link rel="icon" type="image/png" href="/Favicon.ico" />
+      </head>
+      <body>
+        <NavBar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

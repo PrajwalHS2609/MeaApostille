@@ -9,7 +9,7 @@
 .homeHeader-container > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .homeHeader-cover {
   /* border: solid blue; */
@@ -25,6 +25,12 @@
   flex-direction: column;
   padding: 6rem;
   gap: 20px;
+}
+.homeHeader-cover > img {
+  width: 30%;
+  height: 30%;
+  object-fit: contain;
+  border-radius: 20px;
 }
 .homeHeader-coverContent {
   /* border: solid yellow; */
@@ -70,9 +76,15 @@
   position: absolute;
   right: 50px;
   bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .homeHeader-coverFooterImg > img {
-  width: 200px;
+  width: 80px;
+  object-fit: contain;
+  height: 80px;
 }
 @media screen and (max-width: 768px) {
   .homeHeader-cover {
@@ -91,7 +103,7 @@
     flex-direction: column;
     gap: 10px;
   }
-  .homeHeader-coverCont                                      ent > h2 {
+  .homeHeader-coverCont ent > h2 {
     font-size: 30px;
     color: white;
     font-weight: bold;

@@ -1,12 +1,14 @@
 import React from "react";
 import "./NavBar.css";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "@/Images/logo.png"
 const Logo = () => {
   return (
     <div className="logo-container">
       <Link href="/">
-        <img
-          src="https://techtoday.lenovo.com/themes/custom/lenovod8/images/lenovo-techtoday.png"
+        <Image
+          src={logo}
           alt="logo"
         />
       </Link>
