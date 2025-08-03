@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   padding: 30px;
+  gap: 20px;
 }
 .aboutUs-content {
   display: flex;
@@ -135,6 +136,7 @@
   .aboutUs-container {
     /* border: solid red; */
     flex-direction: column;
+    padding: 15px;
   }
   .aboutUs-content {
   width: 100%;
@@ -143,6 +145,10 @@
   font-size: 30px;
   font-weight: bold;
   width: 100%;
+}
+.aboutUs-content > img {
+  width: 100%;
+  object-fit: cover;
 }
 .aboutUs-content:nth-child(1) > p {
   font-size: 16px;
@@ -154,7 +160,7 @@
 /* Container */
 .contact-form {
   background: #fff;
-  padding: 25px;
+  padding: 20px;
   border-radius: 10px;
   color: #333;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);

@@ -55,7 +55,9 @@ const Footer = () => {
               <Link href={"/italy-apostille-services-bangalore"}>Italy</Link>
             </li>
             <li>
-              <Link href={"/germany-apostille-services-bangalore"}>Germany</Link>
+              <Link href={"/germany-apostille-services-bangalore"}>
+                Germany
+              </Link>
             </li>
             <li>
               <Link href={"/australia-apostille-services-bangalore"}>
@@ -63,7 +65,9 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href={"/austria-apostille-services-bangalore"}>Austria</Link>
+              <Link href={"/austria-apostille-services-bangalore"}>
+                Austria
+              </Link>
             </li>
             <li>
               <Link href={"/france-apostille-services-bangalore"}>France</Link>
@@ -109,22 +113,38 @@ const Footer = () => {
           <br />
           <div className="footerAddress-social">
             <li>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.instagram.com/goodwayattestation.india/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaInstagram className="footerAddress-socialIco" />
               </a>
             </li>
             <li>
-              <a href="https://facebook.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.facebook.com/goodwayattestation"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaFacebookF className="footerAddress-socialIco" />
               </a>
             </li>
             <li>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://twitter.com/Goodway_India"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaXTwitter className="footerAddress-socialIco" />
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/company/goodway-attestation/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedinIn className="footerAddress-socialIco" />
               </a>
             </li>
