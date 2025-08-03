@@ -49,19 +49,43 @@ const Footer = () => {
           <h5>Countries List</h5>
           <ul>
             <li>
-              <Link href="/">Australia</Link>
+              <Link href={"/oman-apostille-services-bangalore"}>Oman</Link>
             </li>
             <li>
-              <Link href="/">Austria</Link>
+              <Link href={"/italy-apostille-services-bangalore"}>Italy</Link>
             </li>
             <li>
-              <Link href="/">Belgium</Link>
+              <Link href={"/germany-apostille-services-bangalore"}>Germany</Link>
             </li>
             <li>
-              <Link href="/">France</Link>
+              <Link href={"/australia-apostille-services-bangalore"}>
+                Australia
+              </Link>
             </li>
             <li>
-              <Link href="/">Finland</Link>
+              <Link href={"/austria-apostille-services-bangalore"}>Austria</Link>
+            </li>
+            <li>
+              <Link href={"/france-apostille-services-bangalore"}>France</Link>
+            </li>
+            <li>
+              <Link href={"/lithuania-apostille-services-bangalore"}>
+                Lithuania
+              </Link>
+            </li>
+            <li>
+              <Link href={"/mexico-apostille-services-bangalore"}>Mexico</Link>
+            </li>
+            <li>
+              <Link href={"/netherland-apostille-services-bangalore"}>
+                Netherlands
+              </Link>
+            </li>
+            <li>
+              <Link href={"/uk-apostille-services-bangalore"}>UK</Link>
+            </li>
+            <li>
+              <Link href={"/usa-apostille-services-bangalore"}>USA</Link>
             </li>
           </ul>
         </div>

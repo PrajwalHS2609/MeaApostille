@@ -4,16 +4,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   padding: 2rem 5rem;
   background-color: #1e0013;
+  gap: 20px;
+}
+.component2-container > h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+      font-weight: bold;
+
 }
 .component2-content1 {
-  width: 45%;
+  width: 100%;
   padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .component2-content1:nth-child(1) > img {
@@ -53,26 +62,53 @@
 .component2-content1Icon {
   font-size: 25px;
 }
-@media screen and (max-width:768px) {
-  .component2-container {
-  /* border: solid red; */
-  flex-direction: column;
-    padding: 1rem 1rem;
-
-}
-.component2-content1 {
-  width: 100%;
+.component2-card {
+  border: solid var(--customColor1) 1px;
+  border-bottom: solid 5px var(--customColor1);
+  border-radius: 20px;
   padding: 10px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
-.component2-content1 > h2 {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: start;
+.component2-card > img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
 }
-.component2-content1:nth-child(1) > img {
-  width: 100px;
+.component2-card > p {
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
 }
-.component2-content1:nth-child(2) > img {
-  width: 300px;
-}
+@media screen and (max-width: 768px) {
+  .component2-container {
+    /* border: solid red; */
+    flex-direction: column;
+    padding: 1rem 1rem;
+  }
+  .component2-content1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .component2-container > h2 {
+    color: white;
+    font-size: 30px;
+
+  }
+  .component2-content1 > h2 {
+    font-weight: bold;
+    text-align: start;
+  }
+  .component2-content1:nth-child(1) > img {
+    width: 100px;
+  }
+  .component2-content1:nth-child(2) > img {
+    width: 300px;
+  }
 }

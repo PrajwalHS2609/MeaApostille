@@ -60,7 +60,22 @@ const Menu = () => {
           <div className="menuDrop">
             <Link href={"/"}>
               <div className="dropItems">
-                <p>Australia </p>
+                <p>Oman </p>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="dropItems">
+                <p>Italy</p>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="dropItems">
+                <p>Germany</p>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="dropItems">
+                <p>Australia</p>
               </div>
             </Link>
             <Link href={"/"}>
@@ -70,17 +85,32 @@ const Menu = () => {
             </Link>
             <Link href={"/"}>
               <div className="dropItems">
-                <p>Belgium</p>
-              </div>
-            </Link>
-            <Link href={"/"}>
-              <div className="dropItems">
-                <p>Finland</p>
-              </div>
-            </Link>
-            <Link href={"/"}>
-              <div className="dropItems">
                 <p>France</p>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="dropItems">
+                <p>Lithuania</p>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="dropItems">
+                <p>Mexico</p>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="dropItems">
+                <p>Netherlands</p>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="dropItems">
+                <p>UK</p>
+              </div>
+            </Link>
+            <Link href={"/"}>
+              <div className="dropItems">
+                <p>USA</p>
               </div>
             </Link>
           </div>

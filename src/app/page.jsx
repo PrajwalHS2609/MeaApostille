@@ -5,6 +5,7 @@ import Component3 from "../components/HomePage/Component3/Component3";
 import Component4 from "../components/HomePage/Component4/Component4";
 import HomeHeader from "../components/HomePage/HomeHeader/HomeHeader";
 import HomeService from "../components/HomePage/HomeService/HomeService";
+import Map from "../components/Map/Map";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <AboutUs />
       <Component3 />
       <HomeService />
+      <Map />
     </div>
   );
 }
