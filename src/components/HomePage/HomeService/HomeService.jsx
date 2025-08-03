@@ -19,14 +19,14 @@ const HomeService = () => {
     {
       id: 2,
       title: "HRD Services",
-      img: pcc,
+      img: hrd,
       para: "Goodway Attestation provides trusted and efficient HRD Attestation Services for educational documents issued in India. We ensure smooth verification from the respective State HRD departments for use abroad.",
       link: "/",
     },
     {
       id: 3,
       title: "PCC Services",
-      img: hrd,
+      img: pcc,
       para: "Goodway Attestation offers fast and reliable PCC Verification Services to help you obtain your Police Clearance Certificate smoothly. Ideal for visa, job, or immigration purposes abroad, with full support.",
       link: "/",
     },
