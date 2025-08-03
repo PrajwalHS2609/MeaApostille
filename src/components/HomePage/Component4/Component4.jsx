@@ -37,7 +37,9 @@ const Component4 = () => {
   return (
     <div className="component4-container">
       <div className="component4-content">
-        <h2>Approved MEA Apostille Services You Can Trust </h2>
+        <h2>
+          Approved MEA Apostille Services <br /> You Can Trust{" "}
+        </h2>
       </div>
       <div className="component4-content">
         {card.map((x) => (
