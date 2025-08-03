@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 import "./Component1.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import meaBangalore from "../../../Images/meaBangalore.png";
+import Image from "next/image";
 
 const Component1 = () => {
   return (
@@ -33,10 +35,7 @@ const Component1 = () => {
         </Link>
       </div>
       <div className="component1-content1">
-        <img
-          src="https://techtoday.lenovo.com/sites/default/files/styles/original/public/2025-01/img-thinkpad-x-1%402x.png.webp?itok=LytoAD_Y"
-          alt=""
-        />
+        <Image src={meaBangalore} alt="Mea Bangalore" />
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import "./AboutUs.css";
+import mea from "../../../Images/Mea.png"
+import Image from "next/image";
 const AboutUs = () => {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -29,9 +31,9 @@ const AboutUs = () => {
         <h2>Govt-Approved Apostille Service</h2>
         <p>MEA-authorized services for personal & educational documents.</p>
         <br />
-        <img
-          src="https://techtoday.lenovo.com/sites/default/files/styles/original/public/2024-12/img-thinkpad-copilot%402x.png.webp?itok=XT55NUNf"
-          alt=""
+        <Image
+          src={mea}
+          alt="Mea Bangalore"
         />
       </div>
       <div className="aboutUs-content">

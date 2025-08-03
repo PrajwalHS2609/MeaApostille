@@ -3,10 +3,10 @@ import "./HomeHeader.css";
 import Link from "next/link";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import img1 from "../../../Images/Indian Embassy.png";
-import iso from "../../../Images/ISO.png";
-import govtApp from "../../../Images/govtApp.png";
-import support from "../../../Images/24X7.png";
-import expertise from "../../../Images/expertise.png";
+import iso from "../../../Images/headerIcos/11.png";
+import govtApp from "../../../Images/headerIcos/12.png";
+import support from "../../../Images/headerIcos/13.png";
+import expertise from "../../../Images/headerIcos/14.png";
 import HeaderImg from "../../../Images/headerImg.png";
 
 import Image from "next/image";
@@ -27,13 +27,14 @@ const HomeHeader = () => {
             <MdOutlineKeyboardArrowRight className="homeHeader-coverIco" />
           </Link>
         </div>
+        <div className="homeHeader-coverFooterImg">
+          <Image src={iso} alt="iso" />
+          <Image src={govtApp} alt="iso" />
+          <Image src={support} alt="iso" />
+          <Image src={expertise} alt="iso" />
+        </div>
       </div>
-      <div className="homeHeader-coverFooterImg">
-        <Image src={iso} alt="iso" />
-        <Image src={govtApp} alt="iso" />
-        <Image src={support} alt="iso" />
-        <Image src={expertise} alt="iso" />
-      </div>
+
       <Image src={HeaderImg} alt="" />
     </div>
   );

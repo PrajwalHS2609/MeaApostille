@@ -6,7 +6,8 @@ import Component4 from "../components/HomePage/Component4/Component4";
 import HomeHeader from "../components/HomePage/HomeHeader/HomeHeader";
 import HomeService from "../components/HomePage/HomeService/HomeService";
 import Map from "../components/Map/Map";
-
+import Reviews from "../components/Reviews/Reviews";
+import CountriesCarousel from './../components/CountriesCarousel/CountriesCarousel';
 export default function HomePage() {
   return (
     <div>
@@ -17,6 +18,8 @@ export default function HomePage() {
       <AboutUs />
       <Component3 />
       <HomeService />
+      <Reviews/>
+      <CountriesCarousel/>
       <Map />
     </div>
   );

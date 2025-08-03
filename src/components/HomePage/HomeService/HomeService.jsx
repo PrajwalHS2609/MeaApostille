@@ -8,21 +8,21 @@ const HomeService = () => {
   const serviceCard = [
     {
       id: 1,
-      title: "Smart Modes adapt to how you work",
+      title: "Attestation Services",
       img: "https://techtoday.lenovo.com/sites/default/files/styles/original/public/2024-12/img-smart-modes%402x.jpg.webp?itok=d3Lr5UyS",
       para: "Activate modes for different scenarios to automate common tasks, group settings, and to optimize system performance.",
       link: "/",
     },
     {
       id: 2,
-      title: "Ready to upgrade your devices?",
+      title: "HRD Services",
       img: "https://techtoday.lenovo.com/sites/default/files/styles/original/public/2023-11/img-find-local-dealer%402x.jpg.webp?itok=yJN_mPYA",
       para: "Our extensive network of providers and partners are ready to help you find the right Think devices and supporting solutions that meet the needs of your business.",
       link: "/",
     },
     {
       id: 3,
-      title: "Smart Modes adapt to how you work",
+      title: "PCC Services",
       img: "https://techtoday.lenovo.com/sites/default/files/styles/original/public/2024-12/img-smart-modes%402x.jpg.webp?itok=d3Lr5UyS",
       para: "Activate modes for different scenarios to automate common tasks, group settings, and to optimize system performance.",
       link: "/",
@@ -31,7 +31,7 @@ const HomeService = () => {
   return (
     <div className="service-container">
       <div className="service-content">
-        <h2>Services</h2>
+        <h2>Other Services</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos
           consectetur exercitationem, veniam odio beatae, impedit perspiciatis
