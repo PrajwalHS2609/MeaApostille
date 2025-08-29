@@ -15,7 +15,7 @@ const Component4 = () => {
       img: service1,
       title: "Educational Certificate Apostille",
       para: "Authenticate your academic documents like degrees, diplomas, and transcripts—for global recognition in Hague Convention countries through a trusted and hassle-free apostille process. Open doors to study or work abroad!",
-      link: "/",
+      link: "/education-document-apostille",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const Component4 = () => {
       img: service2,
       title: "Personal Certificate Apostille",
       para: "Easily legalize your personal documents like birth, marriage, or death certificates—for hassle-free acceptance in Hague Convention countries. A quick, official way to make your documents globally valid.",
-      link: "/",
+      link: "/personal-document-apostille",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const Component4 = () => {
       img: service3,
       title: "Commercial Documents Apostille",
       para: "Easily legalize your business documents like invoices, power of attorney, and incorporation certificates—for smooth and official use in any Hague Convention country. Fast, reliable, and globally accepted.",
-      link: "/",
+      link: "/commercial-document-apostille",
     },
   ];
   return (

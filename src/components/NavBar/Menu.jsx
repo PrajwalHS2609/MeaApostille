@@ -37,17 +37,17 @@ const Menu = () => {
           <Link href={"/"}>Services</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/eggfree-cake-diploma-baking-course"}>
+            <Link href={"/education-document-apostille"}>
               <div className="dropItems">
                 <p>Educational Document Apostille</p>
               </div>
             </Link>
-            <Link href={"/classic-cake-diploma-baking-course"}>
+            <Link href={"/personal-document-apostille"}>
               <div className="dropItems">
                 <p>Personal Document Apostille</p>
               </div>
             </Link>
-            <Link href={"/classic-cake-diploma-baking-course"}>
+            <Link href={"/commercial-document-apostille"}>
               <div className="dropItems">
                 <p>Commercial Document Apostille</p>
               </div>
@@ -194,7 +194,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/eggfree-cake-diploma-baking-course"}
+                      href={"/education-document-apostille"}
                     >
                       Educational Document Apostille
                     </Link>
@@ -204,7 +204,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/eggfree-cake-diploma-baking-course"}
+                      href={"/commercial-document-apostille"}
                     >
                       Commercial Document Apostille
                     </Link>
@@ -214,7 +214,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/classic-cake-diploma-baking-course"}
+                      href={"/personal-document-apostille"}
                     >
                       Personal Document Apostille
                     </Link>
@@ -278,15 +278,15 @@ const Menu = () => {
               </span>
             )}
           </ul>
-          <ul>
+          {/* <ul>
             <h2>
               <Link onClick={hideSideBar} href={"/contact-us"}>
                 Apostille Online{" "}
               </Link>
             </h2>
-          </ul>
+          </ul> */}
           {/* SHORT COURSES */}
-          <ul className="serviceDrop">
+          {/* <ul className="serviceDrop">
             <h2>
               <Link onClick={hideSideBar} href={"#"}>
                 Collection Centers{" "}
@@ -314,7 +314,7 @@ const Menu = () => {
                 </li>
               </span>
             )}
-          </ul>
+          </ul> */}
 
           {/* CONTACT */}
           <ul>
@@ -331,7 +331,7 @@ const Menu = () => {
               </Link>
             </h2>
           </ul>
-          <ul>
+          {/* <ul>
             <h2>
               <Link onClick={hideSideBar} href={"/contact-us"}>
                 Useful Links
@@ -344,7 +344,7 @@ const Menu = () => {
                 Resource
               </Link>
             </h2>
-          </ul>
+          </ul> */}
           <ul>
             <div className="respMenuGap"></div>
           </ul>

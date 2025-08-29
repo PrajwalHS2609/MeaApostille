@@ -1,3 +1,4 @@
+import HeaderComponent from "../components/HeaderComponent/HeaderComponent";
 import AboutUs from "../components/HomePage/AboutUs/AboutUs";
 import Component1 from "../components/HomePage/Component1/Component1";
 import Component2 from "../components/HomePage/Component2/Component2";
@@ -7,7 +8,7 @@ import HomeHeader from "../components/HomePage/HomeHeader/HomeHeader";
 import HomeService from "../components/HomePage/HomeService/HomeService";
 import Map from "../components/Map/Map";
 import Reviews from "../components/Reviews/Reviews";
-import CountriesCarousel from './../components/CountriesCarousel/CountriesCarousel';
+import CountriesCarousel from "./../components/CountriesCarousel/CountriesCarousel";
 export default function HomePage() {
   return (
     <div>
@@ -18,8 +19,8 @@ export default function HomePage() {
       <AboutUs />
       <Component3 />
       <HomeService />
-      <Reviews/>
-      <CountriesCarousel/>
+      <Reviews />
+      <CountriesCarousel />
       <Map />
     </div>
   );

@@ -8,13 +8,13 @@ const FooterService = () => {
       <h5>Our Services</h5>
       <ul>
         <li>
-          <Link href="/">Education Document Apostille </Link>
+          <Link href="/education-document-apostille">Education Document Apostille </Link>
         </li>
         <li>
-          <Link href="/">Personal Document Apostille</Link>
+          <Link href="/personal-document-apostille">Personal Document Apostille</Link>
         </li>
         <li>
-          <Link href="/">Commercial Document Apostille</Link>
+          <Link href="/commercial-document-apostille">Commercial Document Apostille</Link>
         </li>
       </ul>
     </div>
