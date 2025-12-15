@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./../components/NavBar/NavBar";
 import Footer from "./../components/Footer/Footer";
 import PopupForm from './../components/PopupForm/PopupForm';
+import Whatsapp from './../components/Whatsapp/Whatsapp';
 
 export default function RootLayout({
   children,
@@ -19,6 +20,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <PopupForm/>
+        <Whatsapp/>
       </body>
     </html>
   );
