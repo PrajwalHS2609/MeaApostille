@@ -2,6 +2,7 @@ import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./../components/NavBar/NavBar";
 import Footer from "./../components/Footer/Footer";
+import PopupForm from './../components/PopupForm/PopupForm';
 
 export default function RootLayout({
   children,
@@ -17,6 +18,7 @@ export default function RootLayout({
         <NavBar />
         {children}
         <Footer />
+        <PopupForm/>
       </body>
     </html>
   );

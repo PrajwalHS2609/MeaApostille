@@ -1,28 +1,46 @@
 "use client";
 import React, { useState } from "react";
 import "./AboutUs.css";
-import mea from "../../../Images/Mea.png"
+import mea from "../../../Images/Mea.png";
+import Swal from "sweetalert2";
+
 import Image from "next/image";
 const AboutUs = () => {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    subject: "",
-    message: "",
-  });
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+    // ✅ Add your Web3Forms access key
+    formData.append("access_key", "c724e1f7-4c15-425b-af5e-470524fd7581");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form Data Submitted:", formData);
-    alert("Form submitted successfully!");
-    // API submission logic goes here
+    const object = Object.fromEntries(formData.entries());
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      Swal.fire({
+        title: "Success!",
+        text: "Mail Sent successfully",
+        icon: "success",
+        confirmButtonText: "OK",
+      });
+      form.reset();
+    } else {
+      Swal.fire({
+        title: "Error!",
+        text: "Something went wrong. Please try again later.",
+        icon: "error",
+      });
+    }
   };
 
   return (
@@ -31,10 +49,7 @@ const AboutUs = () => {
         <h2>Govt-Approved Apostille Service</h2>
         <p>MEA-authorized services for personal & educational documents.</p>
         <br />
-        <Image
-          src={mea}
-          alt="Mea Bangalore"
-        />
+        <Image src={mea} alt="Mea Bangalore" />
       </div>
       <div className="aboutUs-content">
         <p>
@@ -46,7 +61,7 @@ const AboutUs = () => {
           where the documents are issued.
         </p>
         <br />
-        <form onSubmit={handleSubmit} className="contact-form">
+        <form onSubmit={onSubmit} className="contact-form">
           {/* Input fields */}
           <div className="form-group">
             <label>First Name</label>
@@ -54,8 +69,6 @@ const AboutUs = () => {
               type="text"
               name="firstName"
               placeholder="Enter first name"
-              value={formData.firstName}
-              onChange={handleChange}
               required
             />
           </div>
@@ -66,8 +79,6 @@ const AboutUs = () => {
               type="text"
               name="lastName"
               placeholder="Enter last name"
-              value={formData.lastName}
-              onChange={handleChange}
               required
             />
           </div>
@@ -78,8 +89,6 @@ const AboutUs = () => {
               type="email"
               name="email"
               placeholder="Enter email"
-              value={formData.email}
-              onChange={handleChange}
               required
             />
           </div>
@@ -90,8 +99,6 @@ const AboutUs = () => {
               type="tel"
               name="phone"
               placeholder="Enter phone number"
-              value={formData.phone}
-              onChange={handleChange}
               required
             />
           </div>
@@ -100,10 +107,8 @@ const AboutUs = () => {
             <label>Subject</label>
             <input
               type="text"
-              name="subject"
+              name="booking-subject"
               placeholder="Enter subject"
-              value={formData.subject}
-              onChange={handleChange}
               required
             />
           </div>
@@ -114,21 +119,13 @@ const AboutUs = () => {
               name="message"
               placeholder="Write your message..."
               rows="4"
-              value={formData.message}
-              onChange={handleChange}
               required
             ></textarea>
           </div>
 
           {/* ✅ Policy Agreement Checkbox */}
           <div className="policy-checkbox">
-            <input
-              type="checkbox"
-              name="agree"
-              checked={formData.agree}
-              onChange={handleChange}
-              required
-            />
+            <input type="checkbox" name="I agree to the Privacy Policy" required />
             <label>
               I agree to the{" "}
               <a
@@ -145,11 +142,7 @@ const AboutUs = () => {
             </label>
           </div>
 
-          <button
-            type="submit"
-            className="submit-btn"
-            disabled={!formData.agree} // disable if unchecked
-          >
+          <button type="submit" className="submit-btn">
             Send Message
           </button>
         </form>

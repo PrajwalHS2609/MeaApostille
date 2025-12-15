@@ -55,40 +55,40 @@ const Menu = () => {
           </div>
         </li>
         <li>
-          <Link href={"/"}>Country List</Link>
+          <Link href={"#europeCountryList"}>Country List</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/"}>
+            <Link href={"#europeCountryList"}>
               <div className="dropItems">
                 <p>Oman </p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#europeCountryList"}>
               <div className="dropItems">
                 <p>Italy</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#europeCountryList"}>
               <div className="dropItems">
                 <p>Germany</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#europeCountryList"}>
               <div className="dropItems">
                 <p>Australia</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#europeCountryList"}>
               <div className="dropItems">
                 <p>Austria</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#europeCountryList"}>
               <div className="dropItems">
                 <p>France</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#europeCountryList"}>
               <div className="dropItems">
                 <p>Lithuania</p>
               </div>
@@ -98,17 +98,17 @@ const Menu = () => {
                 <p>Mexico</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#europeCountryList"}>
               <div className="dropItems">
                 <p>Netherlands</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#europeCountryList"}>
               <div className="dropItems">
                 <p>UK</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#europeCountryList"}>
               <div className="dropItems">
                 <p>USA</p>
               </div>
@@ -135,11 +135,11 @@ const Menu = () => {
           </div>
         </li> */}
         <li>
-          <Link href={"/"}>Blogs</Link>
+          <Link href={"#other-services"}>Other Services</Link>
         </li>
 
         <li>
-          <Link href={"/contact-us"}>Contact Us</Link>
+          <Link href={"#contact-us"}>Contact Us</Link>
         </li>
         {/* <li>
           <Link href={"/"}>Useful Links</Link>
@@ -319,14 +319,14 @@ const Menu = () => {
           {/* CONTACT */}
           <ul>
             <h2>
-              <Link onClick={hideSideBar} href={"/contact-us"}>
-                Blogs
+              <Link onClick={hideSideBar} href={"#other-services"}>
+                Other Services
               </Link>
             </h2>
           </ul>
           <ul>
             <h2>
-              <Link onClick={hideSideBar} href={"/contact-us"}>
+              <Link onClick={hideSideBar} href={"#contact-us"}>
                 Contact Us
               </Link>
             </h2>

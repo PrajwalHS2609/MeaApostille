@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import "./HomeHeader.css";
 import Link from "next/link";
@@ -10,6 +11,10 @@ import expertise from "../../../Images/headerIcos/14.png";
 import HeaderImg from "../../../Images/headerImg.png";
 
 import Image from "next/image";
+
+  const handlePop = () => {
+    document.querySelector(".popup-container").style.display = "flex";
+  };
 const HomeHeader = () => {
   return (
     <div className="homeHeader-container">
@@ -22,10 +27,10 @@ const HomeHeader = () => {
             your documents. With over 25,000 happy customers, we’re a trusted
             name in document legalization services.
           </p>
-          <Link href={"/"}>
+          <button onClick={handlePop}>
             Talk to an Expert
             <MdOutlineKeyboardArrowRight className="homeHeader-coverIco" />
-          </Link>
+          </button>
         </div>
         <div className="homeHeader-coverFooterImg">
           <Image src={iso} alt="iso" />

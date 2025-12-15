@@ -1,3 +1,4 @@
+import ApostilleCountriesList from "../components/ApostilleCountriesList/ApostilleCountriesList";
 import HeaderComponent from "../components/HeaderComponent/HeaderComponent";
 import AboutUs from "../components/HomePage/AboutUs/AboutUs";
 import Component1 from "../components/HomePage/Component1/Component1";
@@ -19,6 +20,7 @@ export default function HomePage() {
       <Component2 />
       <AboutUs />
       <Component3 />
+      <ApostilleCountriesList />
       <HomeService />
       <Reviews />
       <CountriesCarousel />

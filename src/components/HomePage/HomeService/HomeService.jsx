@@ -32,7 +32,7 @@ const HomeService = () => {
     },
   ];
   return (
-    <div className="service-container">
+    <div className="service-container" id="other-services">
       <div className="service-content">
         <h2>Embassy Services Made Easy for You</h2>
         <p>
