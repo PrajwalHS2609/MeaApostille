@@ -22,11 +22,12 @@ const FooterAddress = () => {
         </li>
         <li>
           <FaPhoneAlt className="footerAddress-icon" />
-          <a href="">+91 9148889666</a> , <a href="">+91 9148889444</a>
+          <a href="tel:9148889666">+91 9148889666</a> ,{" "}
+          <a href="tel:9148889444">+91 9148889444</a>
         </li>
         <li>
           <IoIosMail className="footerAddress-icon" />
-          <a href="">info@goodwayattestation.com</a>
+          <a href="mailto:info@goodwayattestation.com">info@goodwayattestation.com</a>
         </li>
       </ul>
       <br />

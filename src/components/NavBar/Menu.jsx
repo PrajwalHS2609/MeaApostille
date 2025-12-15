@@ -31,23 +31,23 @@ const Menu = () => {
           <Link href={"/"}>Home</Link>
         </li>
         <li>
-          <Link href={"/about-us"}>About Us</Link>
+          <Link href={"#about-us"}>About Us</Link>
         </li>
         <li>
-          <Link href={"/"}>Services</Link>
+          <Link href={"#services"}>Services</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/education-document-apostille"}>
+            <Link href={"#services"}>
               <div className="dropItems">
                 <p>Educational Document Apostille</p>
               </div>
             </Link>
-            <Link href={"/personal-document-apostille"}>
+            <Link href={"#services"}>
               <div className="dropItems">
                 <p>Personal Document Apostille</p>
               </div>
             </Link>
-            <Link href={"/commercial-document-apostille"}>
+            <Link href={"#services"}>
               <div className="dropItems">
                 <p>Commercial Document Apostille</p>
               </div>
@@ -171,7 +171,7 @@ const Menu = () => {
           {/* ABOUT MEJORIA */}
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} href={"/about-us"}>
+              <Link onClick={hideSideBar} href={"#about-us"}>
                 About Us
               </Link>
             </h2>
@@ -180,7 +180,7 @@ const Menu = () => {
           {/* DIPLOMA PROGRAM */}
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} href={"#"}>
+              <Link onClick={hideSideBar} href={"#services"}>
                 Services
               </Link>
               <MdKeyboardArrowDown
@@ -194,7 +194,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/education-document-apostille"}
+                      href={"#services"}
                     >
                       Educational Document Apostille
                     </Link>
@@ -204,7 +204,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/commercial-document-apostille"}
+                      href={"#services"}
                     >
                       Commercial Document Apostille
                     </Link>
@@ -214,7 +214,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/personal-document-apostille"}
+                      href={"#services"}
                     >
                       Personal Document Apostille
                     </Link>
@@ -227,7 +227,7 @@ const Menu = () => {
           {/* CERTIFICATION COURSES */}
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} href={"#"}>
+              <Link onClick={hideSideBar} href={"#europeCountryList"}>
                 Country List
               </Link>
               <MdKeyboardArrowDown
@@ -239,14 +239,14 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"#europeCountryList"}>
                       Australia
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"#europeCountryList"}>
                       Austria
                     </Link>
                   </h4>
@@ -255,7 +255,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/home-bakers-certificate-course"}
+                      href={"#europeCountryList"}
                     >
                       Belgium
                     </Link>
@@ -263,14 +263,14 @@ const Menu = () => {
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"#europeCountryList"}>
                       Finland
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"#europeCountryList"}>
                       France
                     </Link>
                   </h4>

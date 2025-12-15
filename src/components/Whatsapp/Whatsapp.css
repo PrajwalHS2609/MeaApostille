@@ -27,6 +27,9 @@
   background-color: rgb(152, 152, 152);
   display: none;
 }
+.styles-module_chatBody__VBxQH {
+  overflow: auto;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .whatsAppContainer > a > img {
     /* border: solid blue; */

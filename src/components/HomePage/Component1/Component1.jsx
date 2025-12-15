@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Component1 = () => {
   return (
-    <div className="component1-container">
+    <div className="component1-container" id="about-us">
       <div className="component1-content1">
         <h2>Certified MEA Apostille Agency in Bangalore</h2>
         <p>
