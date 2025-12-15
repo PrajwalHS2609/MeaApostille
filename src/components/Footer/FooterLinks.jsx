@@ -10,19 +10,19 @@ const FooterLinks = () => {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/">About Us</Link>
+          <Link href="#about-us">About Us</Link>
         </li>
         <li>
-          <Link href="/">Services</Link>
+          <Link href="#services">Services</Link>
         </li>
         <li>
-          <Link href="/">Country List</Link>
+          <Link href="#europeCountryList">Country List</Link>
         </li>
         <li>
-          <Link href="/">Blogs</Link>
+          <Link href="#other-services">Other Services</Link>
         </li>
         <li>
-          <Link href="/">Contact Us</Link>
+          <Link href="#contact-us">Contact Us</Link>
         </li>
       </ul>
     </div>

@@ -14,19 +14,19 @@ const Footer = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/">About Us</Link>
+              <Link href="#about-us">About Us</Link>
             </li>
             <li>
-              <Link href="/">Services</Link>
+              <Link href="#services">Services</Link>
             </li>
             <li>
-              <Link href="/">Country List</Link>
+              <Link href="#europeCountryList">Country List</Link>
             </li>
             <li>
-              <Link href="/">Blogs</Link>
+          <Link href="#other-services">Other Services</Link>
             </li>
             <li>
-              <Link href="/">Contact Us</Link>
+              <Link href="#contact-us">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -35,13 +35,13 @@ const Footer = () => {
           <h5>Our Services</h5>
           <ul>
             <li>
-              <Link href="/">Education Document Apostille </Link>
+              <Link href="#services">Education Document Apostille </Link>
             </li>
             <li>
-              <Link href="/">Personal Document Apostille</Link>
+              <Link href="#services">Personal Document Apostille</Link>
             </li>
             <li>
-              <Link href="/">Commercial Document Apostille</Link>
+              <Link href="#services">Commercial Document Apostille</Link>
             </li>
           </ul>
         </div>
@@ -49,47 +49,47 @@ const Footer = () => {
           <h5>Countries List</h5>
           <ul>
             <li>
-              <Link href={"/oman-apostille-services-bangalore"}>Oman</Link>
+              <Link href={"#europeCountryList"}>Oman</Link>
             </li>
             <li>
-              <Link href={"/italy-apostille-services-bangalore"}>Italy</Link>
+              <Link href={"#europeCountryList"}>Italy</Link>
             </li>
             <li>
-              <Link href={"/germany-apostille-services-bangalore"}>
+              <Link href={"#europeCountryList"}>
                 Germany
               </Link>
             </li>
             <li>
-              <Link href={"/australia-apostille-services-bangalore"}>
+              <Link href={"#europeCountryList"}>
                 Australia
               </Link>
             </li>
             <li>
-              <Link href={"/austria-apostille-services-bangalore"}>
+              <Link href={"#europeCountryList"}>
                 Austria
               </Link>
             </li>
             <li>
-              <Link href={"/france-apostille-services-bangalore"}>France</Link>
+              <Link href={"#europeCountryList"}>France</Link>
             </li>
             <li>
-              <Link href={"/lithuania-apostille-services-bangalore"}>
+              <Link href={"#europeCountryList"}>
                 Lithuania
               </Link>
             </li>
             <li>
-              <Link href={"/mexico-apostille-services-bangalore"}>Mexico</Link>
+              <Link href={"#europeCountryList"}>Mexico</Link>
             </li>
             <li>
-              <Link href={"/netherland-apostille-services-bangalore"}>
+              <Link href={"#europeCountryList"}>
                 Netherlands
               </Link>
             </li>
             <li>
-              <Link href={"/uk-apostille-services-bangalore"}>UK</Link>
+              <Link href={"#europeCountryList"}>UK</Link>
             </li>
             <li>
-              <Link href={"/usa-apostille-services-bangalore"}>USA</Link>
+              <Link href={"#europeCountryList"}>USA</Link>
             </li>
           </ul>
         </div>
@@ -97,17 +97,17 @@ const Footer = () => {
           <h5>Contacts</h5>
           <ul>
             <li>
-              <a href="">
+              <a href="https://maps.app.goo.gl/okguJ4S99UCCdu99A">
                 {" "}
                 #134 (Shop No. 2), 1st Floor, K.N Complex, 11th Cross, Temple
                 Street, Opp. Canara Bank, Malleshwaram, Bengaluru - 560003{" "}
               </a>
             </li>
             <li>
-              <a href="">+91 9148889666</a> , <a href="">+91 9148889444</a>
+              <a href="tel:9148889666">+91 9148889666</a> , <a href="tel:9148889444">+91 9148889444</a>
             </li>
             <li>
-              <a href="">info@goodwayattestation.com</a>
+              <a href="mailto:info@goodwayattestation.com">info@goodwayattestation.com</a>
             </li>
           </ul>
           <br />
