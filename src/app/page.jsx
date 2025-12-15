@@ -13,6 +13,7 @@ export default function HomePage() {
   return (
     <div>
       <HomeHeader />
+      {/* <MainServices/> */}
       <Component4 />
       <Component1 />
       <Component2 />

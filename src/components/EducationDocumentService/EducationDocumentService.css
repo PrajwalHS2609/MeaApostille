@@ -1,0 +1,149 @@
+.eduDocComp1-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.eduDocComp1-content {
+  /* border: solid green; */
+  height: 100%;
+  width: 45%;
+}
+.eduDocComp1-content > img {
+  width: 85%;
+  height: 85%;
+}
+.eduDocComp1-content > h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+.eduDocComp2-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.eduDocComp2-content {
+  /* border: solid green; */
+  height: 100%;
+  width: 45%;
+}
+.eduDocComp2-content > img {
+  width: 85%;
+  height: 85%;
+}
+.eduDocComp2-content > h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+/* --------------------------------------------------------------------------------------- */
+.eduDocComp3-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #300e31 5%, #63092d, #af3e51, #d07677);
+  padding: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.eduDocComp3-content {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.eduDocComp3-content > li {
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.eduDocComp3-item {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 6px solid white;
+}
+.eduDocComp3-item > img {
+  width: 80px;
+  height: 80px;
+}
+
+.eduDocComp3-content > h2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.eduDocComp3-content > li > p {
+  color: white;
+  font-weight: bold;
+}
+/* ---------------------------------------------------------------------------------------- */
+
+.eduDocComp-container {
+  border: solid red;
+  width: 100%;
+  padding: 20px;
+}
+.eduDocComp-content {
+  border: solid green;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.eduDocComp-content > h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.eduDocComp-item {
+  border: solid blue;
+  height: 100%;
+  width: 45%;
+  position: relative;
+}
+.eduDocComp-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.eduDocComp-wrapper {
+  border: solid greenyellow;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.477);
+  padding: 30px;
+}
+.eduDocComp-wrapper > h4 {
+  color: white;font-weight: bold;
+}
+.eduDocComp-wrapper > ul {
+  padding: 0;
+  margin: 20px;
+}
+.eduDocComp-wrapper > ul > li {
+  color: white;
+}
