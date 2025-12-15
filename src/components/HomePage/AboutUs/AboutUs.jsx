@@ -44,7 +44,7 @@ const AboutUs = () => {
   };
 
   return (
-    <div className="aboutUs-container">
+    <div className="aboutUs-container" id="contact-us">
       <div className="aboutUs-content">
         <h2>Govt-Approved Apostille Service</h2>
         <p>MEA-authorized services for personal & educational documents.</p>
