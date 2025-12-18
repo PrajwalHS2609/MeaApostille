@@ -105,9 +105,7 @@ const HomeContentHead = () => {
             <h3>⚡ 1-Hour Document Collection across Bangalore</h3>
             <p>
               We offer express document pickup within <strong>1 hour</strong>{" "}
-              from 60+ localities, including:
-            </p>
-            <p className="locations">
+              from 60+ localities, including: <br />
               Whitefield, Electronic City, Marathahalli, Bellandur, Indiranagar,
               Jayanagar, Yelahanka, Rajajinagar, Hebbal, Malleshwaram, BTM, HSR,
               Banashankari, KR Puram, and more.
@@ -126,7 +124,7 @@ const HomeContentHead = () => {
             {[
               "16 Years of Process Expertise",
               "Government Approved Attestation Agency",
-              "Authorized by MEA & UAE Authorities",
+              "Authorized & Issued by Ministry of External Affairs",
               "Trusted by 12,000+ Happy Customers",
               "Exclusive Partner of 28+ Top Indian MNCs in Bangalore",
               "Secure Document Handling & Confidentiality",

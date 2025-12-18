@@ -8,6 +8,7 @@ import Component4 from "../components/HomePage/Component4/Component4";
 import HomeContent from "../components/HomePage/HomeContent";
 import HomeContentHead from "../components/HomePage/HomeContentHead";
 import HomeHeader from "../components/HomePage/HomeHeader/HomeHeader";
+import HomeKeywords from "../components/HomePage/HomeKeywords/HomeKeywords";
 import HomeService from "../components/HomePage/HomeService/HomeService";
 import Map from "../components/Map/Map";
 import Reviews from "../components/Reviews/Reviews";
@@ -45,6 +46,7 @@ export default function HomePage() {
       <Component3 />
       <ApostilleCountriesList />
       <HomeService />
+      <HomeKeywords />
       <Reviews />
       <CountriesCarousel />
       <HomeFaq />

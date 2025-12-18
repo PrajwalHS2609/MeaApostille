@@ -116,7 +116,7 @@ const HomeContent = () => {
             </div>
             <div className="content-table-container">
               <div className="content-table-heading">
-                <h2>UAE Attestation Charges in Bangalore</h2>
+                <h2> MEA Apostille Price in Bangalore (Transparent Pricing)</h2>
                 <h3>Price Starts from ₹3,000 to ₹12,000</h3>
               </div>
               <table className="content-table">

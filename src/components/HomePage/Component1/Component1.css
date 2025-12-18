@@ -24,8 +24,9 @@
 }
 .component1-content1 > p {
   font-size: 16px;
+  text-align: justify;
 }
-.component1-content1:nth-child(1){
+.component1-content1:nth-child(1) {
   padding: 30px;
 }
 .component1-content1 > a {
@@ -49,23 +50,22 @@
 .component1-content1Icon {
   font-size: 25px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .component1-container {
-  /* border: solid red; */
-  flex-direction: column;
+    /* border: solid red; */
+    flex-direction: column;
     padding: 1rem 1rem;
-
-}
-.component1-content1 > h2 {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: start;
-}
-.component1-content1 {
-  width: 100%;
-  padding: 10px;
-}
-.component1-content1 > img {
-  width: 300px;
-}
+  }
+  .component1-content1 > h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .component1-content1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .component1-content1 > img {
+    width: 100%;
+  }
 }
