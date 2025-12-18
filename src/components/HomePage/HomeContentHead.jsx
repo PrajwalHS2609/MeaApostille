@@ -84,10 +84,10 @@ const HomeContentHead = () => {
         <div className="highlight-section">
           {/* Duration Highlight */}
           <div className="highlight-card">
-            <h3>🚀 Duration – UAE Attestation in Just 5 Days</h3>
+            <h3>🚀Duration – MEA Apostille in Just 5 Days</h3>
             <ul>
               <li>
-                <strong>Standard Processing Time:</strong> 5 Working Days
+                <strong>Standard Processing Time:</strong>3 to 5 Working Days
               </li>
               <li className="note">
                 (Duration may vary depending on document type & issuing
@@ -95,9 +95,8 @@ const HomeContentHead = () => {
               </li>
             </ul>
             <p>
-              Our strong coordination with government departments and 16+ years
-              of experience ensure faster turnaround with{" "}
-              <strong>guaranteed delivery</strong>.
+              With 16 years of experience, we ensure quick turnaround with
+              guaranteed delivery.
             </p>
           </div>
 
@@ -111,7 +110,7 @@ const HomeContentHead = () => {
             <p className="locations">
               Whitefield, Electronic City, Marathahalli, Bellandur, Indiranagar,
               Jayanagar, Yelahanka, Rajajinagar, Hebbal, Malleshwaram, BTM, HSR,
-              Banashankari & more.
+              Banashankari, KR Puram, and more.
             </p>
             <p className="highlight-text">
               No travel. No waiting. Complete convenience.
